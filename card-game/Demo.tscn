@@ -1,0 +1,75 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://card-back.png" type="Texture" id=1]
+
+[node name="Game" type="Node2D"]
+position = Vector2( -0.735092, 0 )
+
+[node name="card-back" type="Sprite" parent="."]
+position = Vector2( 119.156, 241.154 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back6" type="Sprite" parent="."]
+position = Vector2( 120.116, 242.679 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back11" type="Sprite" parent="."]
+position = Vector2( 121.369, 243.663 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back2" type="Sprite" parent="."]
+position = Vector2( 122.504, 244.482 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back5" type="Sprite" parent="."]
+position = Vector2( 123.83, 244.943 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back9" type="Sprite" parent="."]
+position = Vector2( 125.318, 246.646 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back4" type="Sprite" parent="."]
+position = Vector2( -440.006, 265.837 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( 2967.55, 1022.98 )
+
+[node name="card-back12" type="Sprite" parent="."]
+position = Vector2( 478.569, 558.832 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( -41.8596, -7.48975 )
+
+[node name="card-back13" type="Sprite" parent="."]
+position = Vector2( 544.79, 558.832 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( -41.8596, -7.48975 )
+
+[node name="card-back14" type="Sprite" parent="."]
+position = Vector2( 614.091, 557.292 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( -41.8596, -7.48975 )
+
+[node name="card-back15" type="Sprite" parent="."]
+position = Vector2( 681.853, 554.725 )
+scale = Vector2( 0.281832, 0.281832 )
+texture = ExtResource( 1 )
+offset = Vector2( -41.8596, -7.48975 )
+
+[node name="Card" type="Sprite" parent="."]
+
