@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/birdy_pong.ogg-1a829267bec83cc85e6a772d438fef1d.oggstr"
+
+[deps]
+
+source_file="res://game/audio/music/birdy_pong.ogg"
+dest_files=[ "res://.import/birdy_pong.ogg-1a829267bec83cc85e6a772d438fef1d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=-2.65
