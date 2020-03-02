@@ -1,0 +1,93 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://root.gd" type="Script" id=5]
+
+[sub_resource type="Animation" id=1]
+resource_name = "leave"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.815686 ), Color( 1, 1, 1, 0.65098 ), Color( 1, 1, 1, 0.380392 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[node name="Root" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Title" type="Panel" parent="."]
+margin_left = 71.0
+margin_top = 195.392
+margin_right = 469.0
+margin_bottom = 357.392
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Version" type="Label" parent="Title"]
+margin_left = 338.574
+margin_top = 143.769
+margin_right = 393.574
+margin_bottom = 157.769
+rect_pivot_offset = Vector2( 31.5, 0 )
+text = "v.4.3123"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Game Name" type="Label" parent="Title"]
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 397.0
+margin_bottom = 162.0
+rect_pivot_offset = Vector2( 31.5, 0 )
+text = "WACK'O'MOLL"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Play" type="Button" parent="."]
+margin_left = 121.498
+margin_top = 443.46
+margin_right = 421.498
+margin_bottom = 543.46
+text = "PLAY"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Options" type="Button" parent="."]
+margin_left = 120.834
+margin_top = 552.925
+margin_right = 420.834
+margin_bottom = 652.925
+text = "OPTIONS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 118.834
+margin_top = 668.925
+margin_right = 418.834
+margin_bottom = 768.925
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RootAnimationPlayer" type="AnimationPlayer" parent="."]
+anims/leave = SubResource( 1 )
+[connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
+[connection signal="pressed" from="Options" to="." method="_on_Options_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]

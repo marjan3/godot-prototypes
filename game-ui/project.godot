@@ -15,10 +15,9 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Space Bricks ™"
-run/main_scene="res://Main.tscn"
-config/icon="res://assets/icon.png"
-config/quit_on_go_back=false
+config/name="Game UI"
+run/main_scene="res://GameUI.tscn"
+config/icon="res://icon.png"
 
 [display]
 
@@ -29,4 +28,7 @@ window/stretch/aspect="keep"
 
 [rendering]
 
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"

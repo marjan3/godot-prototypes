@@ -51,12 +51,12 @@ func handle_player_collision(player, meteor, delta):
 	var random_number = randi()%9+1
 	if meteor.position.x < player.position.x:
 #       Meteor is on the left-hand side of the paddle
-        diff = player.position.x - meteor.position.x
-        velocity.x = (-10 * diff)
+		diff = player.position.x - meteor.position.x
+		velocity.x = (-10 * diff)
 	elif meteor.position.x > player.position.x:
 #       Meteor is on the right-hand side of the player
-        diff = meteor.position.x - player.position.x
-        velocity.x = (10 * diff)
+		diff = meteor.position.x - player.position.x
+		velocity.x = (10 * diff)
 	else:
 #		Meteor is perfectly in the middle
 #       Add a little random X to stop it bouncing straight up!
