@@ -1,0 +1,45 @@
+[gd_scene format=1]
+
+[node name="Panel" type="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 286.0
+margin/top = 185.0
+margin/right = 587.0
+margin/bottom = 363.0
+
+[node name="Label" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 77.0
+margin/top = 36.0
+margin/right = 216.0
+margin/bottom = 115.0
+text = "This is a label"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Button" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 84.0
+margin/top = 69.0
+margin/right = 190.0
+margin/bottom = 106.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Press me"
+flat = false
+
+
