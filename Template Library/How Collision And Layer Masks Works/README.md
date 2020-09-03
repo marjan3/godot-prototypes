@@ -1,1 +1,0 @@
-# godot-collision-mask-layer
