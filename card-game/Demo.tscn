@@ -72,4 +72,3 @@ texture = ExtResource( 1 )
 offset = Vector2( -41.8596, -7.48975 )
 
 [node name="Card" type="Sprite" parent="."]
-
